@@ -30,29 +30,6 @@
   margin-bottom: 25px;
 }
 
-.footer {
-  background-color: black;
-  height: 15vh;
-  font-size: 12px;
-  font-weight: 500;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  a {
-    text-decoration: none;
-    color: white;
-
-    &:hover {
-      color: $link-hover;
-    }
-  }
-
-  .copyMF {
-    color: $copy-color;
-  }
-}
-
 // Media query
 @media (max-width: 750px) {
   .titlePadding {

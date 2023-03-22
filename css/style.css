@@ -35,6 +35,44 @@
   border: 2px solid white;
 }
 
+.downloadDesc {
+  background-color: black;
+  height: 85vh;
+  padding-top: 240px;
+}
+.downloadDesc button {
+  border: 2px solid white;
+  margin-right: 10px;
+}
+
+.emailObc {
+  text-decoration: none;
+  color: #555252;
+}
+.emailObc:hover {
+  color: #b9b9b9;
+}
+
+.footer {
+  background-color: black;
+  height: 15vh;
+  font-size: 12px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer a {
+  text-decoration: none;
+  color: white;
+}
+.footer a:hover {
+  color: #b9b9b9;
+}
+.footer .copyMF {
+  color: #555252;
+}
+
 @media (max-width: 449px) {
   .downloadDesc button {
     margin: 10px 0px;
@@ -80,26 +118,6 @@
 .mediumTitle {
   width: 650px;
   margin-bottom: 25px;
-}
-
-.footer {
-  background-color: black;
-  height: 15vh;
-  font-size: 12px;
-  font-weight: 500;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.footer a {
-  text-decoration: none;
-  color: white;
-}
-.footer a:hover {
-  color: #b9b9b9;
-}
-.footer .copyMF {
-  color: #555252;
 }
 
 @media (max-width: 750px) {
@@ -198,23 +216,6 @@
 }
 .carrosselSlide .carousselText {
   background-color: black;
-}
-
-.downloadDesc {
-  background-color: black;
-  height: 85vh;
-  padding-top: 240px;
-}
-.downloadDesc a {
-  text-decoration: none;
-  color: #555252;
-}
-.downloadDesc a:hover {
-  color: #b9b9b9;
-}
-.downloadDesc button {
-  border: 2px solid white;
-  margin-right: 10px;
 }
 
 @media (max-width: 768px) {
