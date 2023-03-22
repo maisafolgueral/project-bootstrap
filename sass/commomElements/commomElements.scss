@@ -31,3 +31,22 @@
 #button {
   padding: $padding-button;
 }
+
+// Media query
+@media (max-width: 405px) {
+  .logoPc {
+    width: 180px;
+    margin-top: 15px;
+  }
+
+  .footer {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 350px) {
+  .logoPc {
+    width: 150px;
+    margin-top: 15px;
+  }
+}
