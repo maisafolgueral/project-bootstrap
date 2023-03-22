@@ -107,3 +107,49 @@
   }
 }
 
+// Media query
+@media (max-width: 768px) {
+  .numbers {
+    .titleNumber {
+      font-size: 80px;
+    }
+
+    .subtitleNumber {
+      font-size: 18px;
+    }
+  }
+
+  #overViewPosition {
+    padding-top: 35%;
+  }
+
+  .falcon9Desc {
+    width: auto;
+  }
+}
+
+@media (max-width: 575px) {
+  .numbers {
+    height: 60vh;
+  }
+
+  #overViewPosition {
+    width: auto;
+    margin-left: auto;
+  }
+}
+
+@media (max-width: 375px) {
+  .titleFalcon9 {
+    font-size: 50px;
+  }
+
+  .falcon9Desc {
+    font-size: 18px;
+    line-height: auto;
+  }
+
+  .subtitleFalcon {
+    font-size: 16px;
+  }
+}
