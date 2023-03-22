@@ -32,6 +32,7 @@
 
 #button {
   padding: 15px 35px;
+  border: 2px solid white;
 }
 
 @media (max-width: 405px) {
@@ -68,12 +69,12 @@
 
 .shortTitle {
   width: 550px;
-  margin-bottom: -25px;
+  margin-bottom: 25px;
 }
 
 .mediumTitle {
   width: 650px;
-  margin-bottom: -25px;
+  margin-bottom: 25px;
 }
 
 .footer {
