@@ -1,0 +1,54 @@
+.container00 {
+  &.container01 {
+    background-image: url(../../images/home/01.jpg);
+  }
+
+  &.container02 {
+    background-image: url(../../images/home/02.jpg);
+  }
+
+  &.container03 {
+    background-image: url(../../images/home/03.gif);
+  }
+
+  &.container04 {
+    background-image: url(../../images/home/04.jpg);
+  }
+}
+
+.titlePadding {
+  padding-top: 200px;
+}
+
+.shortTitle {
+  width: 550px;
+  margin-bottom: -25px;
+}
+
+.mediumTitle {
+  width: 650px;
+  margin-bottom: -25px;
+}
+
+.footer {
+  background-color: black;
+  height: 15vh;
+  font-size: 12px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  a {
+    text-decoration: none;
+    color: white;
+
+    &:hover {
+      color: $link-hover;
+    }
+  }
+
+  .copyMF {
+    color: $copy-color;
+  }
+}

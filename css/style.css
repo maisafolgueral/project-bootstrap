@@ -1,3 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;514&display=swap");
+* {
+  color: white;
+}
 
+.header {
+  font-size: 12px;
+  font-weight: bold;
+}
+.header #navItem:hover {
+  color: #b9b9b9;
+}
+
+.container00 {
+  min-height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.arrowDown {
+  display: inline-block;
+  width: 90px;
+  margin-top: 5px;
+}
+
+.logoPc {
+  width: 240px;
+  margin-left: -10px;
+  margin-right: 40px;
+}
+
+#button {
+  padding: 15px 35px;
+}
+
+.container00.container01 {
+  background-image: url(../../images/home/01.jpg);
+}
+.container00.container02 {
+  background-image: url(../../images/home/02.jpg);
+}
+.container00.container03 {
+  background-image: url(../../images/home/03.gif);
+}
+.container00.container04 {
+  background-image: url(../../images/home/04.jpg);
+}
+
+.titlePadding {
+  padding-top: 200px;
+}
+
+.shortTitle {
+  width: 550px;
+  margin-bottom: -25px;
+}
+
+.mediumTitle {
+  width: 650px;
+  margin-bottom: -25px;
+}
+
+.footer {
+  background-color: black;
+  height: 15vh;
+  font-size: 12px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer a {
+  text-decoration: none;
+  color: white;
+}
+.footer a:hover {
+  color: #b9b9b9;
+}
+.footer .copyMF {
+  color: #555252;
+}
 
 /*# sourceMappingURL=style.css.map */
